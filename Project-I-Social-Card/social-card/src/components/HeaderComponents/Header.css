@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+  border: 1px solid red;
+  margin: 5px 5px 0px 5px;
+  height: 115px;
+}
+
+.imageThumbnail {
+  border: 1px solid purple;
+  margin: 5px 5px 5px 5px;
+  height: 85px;
+  width: 95px;
+}
+
+.headerTitle {
+  border: 1px solid brown;
+  height: 25px;
+  margin-left: 105px;
+  margin-right: 5px;
+  margin-top: -110px;
+}
+
+.headerContent {
+  border: 1px solid grey;
+  margin-left: 105px;
+  margin-right: 5px;
+  margin-top: -15px;
+  height: 75px;
+
+}

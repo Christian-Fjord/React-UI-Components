@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -15px;
+  height: 375px;
+}
+
+.cardBanner {
+  border: 1px solid green;
+  margin-top: 5px;
+  margin-left: 105px;
+  margin-right: 5px;
+  height: 275px;
+}
+
+.cardContent {
+  border: 1px solid yellowgreen;
+  height: 75px;
+  margin-top: -10px;
+  margin-left: 105px;
+  margin-right: 5px;
+  
+}
