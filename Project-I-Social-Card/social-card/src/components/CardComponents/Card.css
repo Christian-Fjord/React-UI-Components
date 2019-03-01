@@ -5,7 +5,7 @@
   margin-left: 5px;
   margin-right: 5px;
   margin-top: -15px;
-  height: 375px;
+  height: 385px;
 }
 
 .cardBanner {
@@ -16,11 +16,30 @@
   height: 275px;
 }
 
+.reactPic {
+  width: 476px;
+  height: 275px;
+
+}
+
 .cardContent {
   border: 1px solid yellowgreen;
-  height: 75px;
+  height: 90px;
   margin-top: -10px;
   margin-left: 105px;
   margin-right: 5px;
   
+}
+
+.cardHeaderOne {
+  margin-top: -2px;
+  font-weight: bold;
+}
+
+.cardParagraph {
+  margin-top: -10px;
+}
+
+.cardContent a {
+  color: grey;
 }
