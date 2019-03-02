@@ -10,7 +10,7 @@
 
 .cardBanner {
   
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 85px;
   margin-right: 5px;
   height: 275px;
@@ -19,6 +19,8 @@
 .reactPic {
   width: 500px;
   height: 275px;
+  margin-left: 5px;
+  
 
 }
 
@@ -26,8 +28,8 @@
   font-size: 14px;
   height: 105px;
   margin-top: -20px;
-  margin-left: 85px;
-  margin-right: 5px;
+  margin-left: 90px;
+  
   border: 1px solid lightgrey;
   
   
