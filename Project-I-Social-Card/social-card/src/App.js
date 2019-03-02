@@ -10,8 +10,8 @@ import CardContainer from "./components/CardComponents/CardContainer.js";
 const App = () => {
   return (
     <div className="appBody">
-      <HeaderContainer />;
-      <CardContainer />;
+      <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };
