@@ -1,0 +1,48 @@
+.symbolButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.clearButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  width: 75%;
+  height: 91px;
+  margin-top: -1px;
+  font-size: 48px;
+  
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+.mathButton {
+  margin-top: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 2px solid grey;
+  background-color: rgb(143, 29, 29);
+  color: white;
+  height: 91px;
+  width: 105px;
+}
+
+.mathButton p {
+  display: flex;
+
+}
+
+/* ============================== */
+
+.numberButtons {
+  border: 1px solid blue;
+  height: 91px;
+  width: 25%;
+}

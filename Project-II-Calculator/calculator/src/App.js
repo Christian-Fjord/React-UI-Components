@@ -1,5 +1,8 @@
 import React from 'react';
+
 import './App.css';
+import './components/ButtonComponents/Button.css';
+import './components/DisplayComponents/Display.css';
 
 import ActionButton from "./components/ButtonComponents/ActionButton.js";
 
@@ -9,10 +12,11 @@ import CaculatorDisplay from "./components/DisplayComponents/CalculatorDisplay.j
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
+      <CaculatorDisplay />
       <ActionButton />
       <NumberButton />
-      <CaculatorDisplay />
+      <NumberButton />
     </div>
   );
 };

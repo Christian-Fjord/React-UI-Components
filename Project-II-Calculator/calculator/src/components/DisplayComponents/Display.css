@@ -1,0 +1,18 @@
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; 
+  border: 2px solid grey;
+  background-color: #302a29;
+  color: white;
+  height: 125px;
+}
+
+.display h2 {
+  display: flex;
+  align-items: flex-end;
+  font-weight: lighter;
+  font-size: 72px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
