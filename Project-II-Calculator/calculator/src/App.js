@@ -16,7 +16,7 @@ const App = () => {
       <CaculatorDisplay />
       <ActionButton />
       <NumberButton />
-      <NumberButton />
+      
     </div>
   );
 };

@@ -12,7 +12,7 @@
   height: 91px;
   margin-top: -1px;
   font-size: 48px;
-  
+  font-weight: lighter;
 }
 
 .actionButtons {
@@ -41,8 +41,71 @@
 
 /* ============================== */
 
-.numberButtons {
-  border: 1px solid blue;
+.numberButtonsTopRow {
+  display: flex;
+  margin-top: -38px;
+  margin-right: 9px; 
+}
+
+.numberButtonsMiddleRow {
+  display: flex;
+  margin-top: -73px;
+  margin-right: 9px; 
+}
+
+.numberButtonsBottomRow {
+  display: flex;
+  margin-top: -73px;
+  margin-right: 9px; 
+}
+.numberButtonsTopRow p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  border: 2px solid grey;
   height: 91px;
   width: 25%;
+}
+
+.numberButtonsMiddleRow p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  border: 2px solid grey;
+  height: 91px;
+  width: 25%;
+}
+
+.numberButtonsBottomRow p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  border: 2px solid grey;
+  height: 91px;
+  width: 25%;
+}
+
+.bottomNumber {
+  border: 2px solid grey;
+  height: 90px;
+  width: 75%;
+  margin-top: -36px;
+}
+
+.bottomNumber p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.whiteButtons {
+  margin-top: -470px;
 }
