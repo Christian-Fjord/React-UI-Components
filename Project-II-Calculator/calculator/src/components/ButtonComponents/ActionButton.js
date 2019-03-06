@@ -1,34 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+const ActionButton = props => {
   return (
-    <div className="symbolButtons">
-      
-      <div className="actionButtons">
-        <div className="mathButton">
-          <p> / </p>
-        </div>
-
-        <div className="mathButton">
-          <p> X </p>
-        </div>
-
-        <div className="mathButton">
-          <p> - </p>
-        </div>
-
-        <div className="mathButton">
-          <p> + </p>
-        </div>
-
-        <div className="mathButton">
-          <p> = </p>
-        </div>
-      </div>
-    </div>
-
-    
+    <button className='actionButtons'> {props.text} </button>
   );
 };
 

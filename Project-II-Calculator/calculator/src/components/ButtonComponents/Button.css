@@ -1,111 +1,23 @@
-.symbolButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.clearButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+button {
   border: 2px solid grey;
-  width: 75%;
-  height: 91px;
-  margin-top: -1px;
-  font-size: 48px;
-  font-weight: lighter;
+}
+.whiteButton {
+  height: 92px;
+  width: 25%;
+  background-color: white;
+  font-size: 36px;
+}
+
+.redButton {
+  height: 92px;
+  width: 25%;
+  background-color: rgb(141, 22, 22);
+  font-size: 36px;
 }
 
 .actionButtons {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  
-}
-.mathButton {
-  margin-top: -1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 48px;
-  border: 2px solid grey;
-  background-color: rgb(143, 29, 29);
-  color: white;
-  height: 91px;
-  width: 105px;
-}
-
-.mathButton p {
-  display: flex;
-
-}
-
-/* ============================== */
-
-.numberButtonsTopRow {
-  display: flex;
-  margin-top: -38px;
-  margin-right: 9px; 
-}
-
-.numberButtonsMiddleRow {
-  display: flex;
-  margin-top: -73px;
-  margin-right: 9px; 
-}
-
-.numberButtonsBottomRow {
-  display: flex;
-  margin-top: -73px;
-  margin-right: 9px; 
-}
-.numberButtonsTopRow p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
-  font-weight: bold;
-  border: 2px solid grey;
-  height: 91px;
-  width: 25%;
-}
-
-.numberButtonsMiddleRow p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
-  font-weight: bold;
-  border: 2px solid grey;
-  height: 91px;
-  width: 25%;
-}
-
-.numberButtonsBottomRow p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
-  font-weight: bold;
-  border: 2px solid grey;
-  height: 91px;
-  width: 25%;
-}
-
-.bottomNumber {
-  border: 2px solid grey;
-  height: 90px;
+  height: 92px;
   width: 75%;
-  margin-top: -36px;
-}
-
-.bottomNumber p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 48px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.whiteButtons {
-  margin-top: -470px;
+  background-color: white;
+  font-size: 36px;
 }
